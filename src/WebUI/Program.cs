@@ -1,4 +1,5 @@
-using CleanArchitecture.Infrastructure.Persistence;
+using Application;
+using Infrastructure.Persistence;
 
 var builder = WebApplication.CreateBuilder(args);
 

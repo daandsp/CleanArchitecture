@@ -1,8 +1,7 @@
-﻿namespace CleanArchitecture.Application.Common.Models;
-
+﻿namespace Application.Common.Models;
 public class Result
 {
-    internal Result(bool succeeded, IEnumerable<string> errors)
+    public Result(bool succeeded, IEnumerable<string> errors)
     {
         Succeeded = succeeded;
         Errors = errors.ToArray();
